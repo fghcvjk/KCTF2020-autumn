@@ -1,0 +1,5 @@
+题型：是一道智能设备Crackme，题目需要在arm模拟器下运行．运行命令为:
+qemu-system-arm -M versatilepb -dtb ./versatile-pb.dtb -kernel zImage -append "console=ttyAMA0" -nographic
+命令在ubuntu18.04环境下测试通过．qemu版本4.2.1.
+
+当输入错误时无显示，当输入正确时显示"you got it"
